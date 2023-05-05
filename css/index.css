@@ -46,6 +46,7 @@ input:focus-visible {
     font-size: 30px;
     padding: 10px;
     border-radius: 4px;
+    color: black;
 }
 
 .row {
