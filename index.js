@@ -100,7 +100,7 @@ const generatePassword = () => {
     }
   }
   console.log(password);
-  document.getElementById("pass-box").innerText = password
+  document.getElementById("pass-box").innerText = truncateString(password, totalChar.value);
 }
 
 const changeColor = () => {
